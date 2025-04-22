@@ -1,0 +1,642 @@
+[
+    {
+      "headers": {
+        "host": "webhook.elev8.com.br",
+        "user-agent": "GuzzleHttp/6.5.5 curl/7.81.0 PHP/7.2.34-54+ubuntu20.04.1+deb.sury.org+1",
+        "content-length": "13856",
+        "content-type": "application/json",
+        "merchant-token": "GIH4jFN87g29UfwnZYXyPp8QQyOIzSop0wCEpzZy",
+        "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjkzNTI0OSIsImFwIjoiMTAyMzM4MjQxOSIsInRyIjoiMDAwMDAwMDAwMDAwMDAwMDc2YjBhODM4OTMzMWM3Y2EiLCJ0eCI6ImRlMzE3YmViMTVjMTJlOTkiLCJwciI6MC4xNDIxMSwic2EiOmZhbHNlLCJ0aSI6MTc0NTE4MDE0NjMzMX19",
+        "traceparent": "00-000000000000000076b0a8389331c7ca-bca427d99e6e338d-00",
+        "tracestate": "2935249@nr=0-0-2935249-1023382419--de317beb15c12e99-0-0.142108-1745180146331",
+        "x-forwarded-for": "52.67.114.94",
+        "x-forwarded-host": "webhook.elev8.com.br",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https",
+        "x-forwarded-server": "f8ce753f84fa",
+        "x-real-ip": "52.67.114.94",
+        "x-yampi-hmac-sha256": "H8zzP9iIIgtK4MC4B4xpARFoOY+SASoEGT0KGjW0ED8=",
+        "accept-encoding": "gzip"
+      },
+      "params": {},
+      "query": {},
+      "body": {
+        "event": "order.paid",
+        "time": "2025-04-20 17:15:46",
+        "merchant": {
+          "id": 1042701,
+          "alias": "prof-didatica"
+        },
+        "resource": {
+          "id": 134901707,
+          "merchant_id": 1042701,
+          "customer_id": 227321752,
+          "status_id": 4,
+          "desire_status_id": [
+            8,
+            7,
+            5,
+            10,
+            6,
+            12,
+            9,
+            11
+          ],
+          "desire_status": [
+            "cancelled",
+            "delivered",
+            "handling_products",
+            "invoiced",
+            "on_carriage",
+            "ready_for_shipping",
+            "refused",
+            "shipment_exception"
+          ],
+          "promocode_id": 3820874,
+          "marketplace_id": null,
+          "marketplace_account_id": null,
+          "authorized": true,
+          "sync_by_erp": false,
+          "has_recomm": false,
+          "has_upsell": false,
+          "has_freebie": false,
+          "has_order_bump": true,
+          "order_bump_types": [
+            "manual"
+          ],
+          "has_payment": true,
+          "is_upsell": false,
+          "delivered": false,
+          "number": 1042701816119630,
+          "marketplace_partner_id": null,
+          "marketplace_sale_number": null,
+          "value_total": 15,
+          "buyer_value_total": 15,
+          "value_products": 22,
+          "value_shipment": 0,
+          "value_tax": 0,
+          "buyer_value_tax": 0,
+          "value_discount": 7,
+          "value_wallet_discount": 0,
+          "shipment_cost": 0,
+          "shipment_service": null,
+          "shipment_service_id": null,
+          "shipment_icon_url": null,
+          "shipment_quote_id": null,
+          "track_code": null,
+          "track_url": null,
+          "b2w_label_url": null,
+          "days_delivery": 0,
+          "date_delivery": {
+            "date": "2025-04-21 00:00:00.000000",
+            "timezone_type": 3,
+            "timezone": "America/Sao_Paulo"
+          },
+          "cart_token": "f2be11d2-1e23-11f0-8ec9-0a871286d8c3-680555735ac1c",
+          "utm_source": "FBjLj6805555e111e8dbf2a3d1b37",
+          "utm_campaign": "[PL] AD0023 - 20250415-04 1|120220949963380701",
+          "utm_content": "[PL] AD0023 - 20250415-04 1|120220949971470701",
+          "utm_term": "Facebook_Mobile_Feed",
+          "utm_medium": "[PL] AD0023 - 20250415-04 1|120220949965460701",
+          "total_comments": 0,
+          "payments": [
+            {
+              "alias": "pix",
+              "name": "Pix",
+              "icon_url": "https://icons.yampi.me/svg/pix.svg"
+            }
+          ],
+          "ip": "187.180.161.115",
+          "device": "mobile",
+          "reorder_url": "https://seguro.profdidatica.com.br/cart/items?customerToken=02740660-1e24-11f0-a014-2b75f5bdcc42&product_option_id[0]=221852914&product_option_id[1]=220172796&quantity[0]=1&quantity[1]=1&has_recomm[0]=0&has_recomm[1]=0&redirectTo=checkout&skipToCheckout=1&store_token=GIH4jFN87g29UfwnZYXyPp8QQyOIzSop0wCEpzZy",
+          "content_statement_url": "https://api.dooki.com.br/html/orders/content-statement/f2be11d2-1e23-11f0-8ec9-0a871286d8c3-680555735ac1c?id=def5020054fc7c0b90e8af2eabacd3c1c0783cf0a9f292d56a4e2487f800143598e55d89d0732964c35b8318adaafe0cfce3ffe0a0b5bea95ebfe11312369d63c0abd61dd8628038e93f287567ae120692e6509c121e1774bd25430e9f",
+          "billet_whatsapp_link": "https://api.whatsapp.com/send?phone=5515981102713&text=",
+          "billet_whatsapp_app_link": "whatsapp://send?phone=5515981102713&text=",
+          "public_url": "https://api.dooki.com.br/v2/public/orders/f2be11d2-1e23-11f0-8ec9-0a871286d8c3-680555735ac1c",
+          "created_at": {
+            "date": "2025-04-20 17:14:36.000000",
+            "timezone_type": 3,
+            "timezone": "America/Sao_Paulo"
+          },
+          "updated_at": {
+            "date": "2025-04-20 17:15:34.000000",
+            "timezone_type": 3,
+            "timezone": "America/Sao_Paulo"
+          },
+          "status": {
+            "data": {
+              "id": 4,
+              "alias": "paid",
+              "name": "Pagamento aprovado",
+              "description": "O pedido foi pago/capturado"
+            }
+          },
+          "marketplace": {
+            "data": []
+          },
+          "customer": {
+            "data": {
+              "id": 227321752,
+              "merchant_id": 1042701,
+              "marketplace_id": null,
+              "cluster_id": null,
+              "active": true,
+              "type": "f",
+              "name": "Cristiane Caramante",
+              "razao_social": null,
+              "first_name": "Cristiane",
+              "last_name": "Caramante",
+              "generic_name": "Cristiane Caramante",
+              "email": "crisribeirocarvalho76@gmail.com",
+              "cnpj": null,
+              "state_registration": null,
+              "cpf": "16006376806",
+              "birthday": null,
+              "phone": {
+                "full_number": "15981102713",
+                "area_code": "15",
+                "number": "981102713",
+                "formated_number": "(15) 98110-2713",
+                "whatsapp_link": "https://api.whatsapp.com/send?phone=5515981102713"
+              },
+              "social_driver": null,
+              "social_id": null,
+              "newsletter": false,
+              "whatsapp": false,
+              "utm_source": "FBjLj6805555e111e8dbf2a3d1b37",
+              "utm_campaign": "[PL] AD0023 - 20250415-04 1|120220949963380701",
+              "ip": "187.180.161.115",
+              "notes": null,
+              "token": "02740660-1e24-11f0-a014-2b75f5bdcc42",
+              "login_url": "https://seguro.profdidatica.com.br/auth/login/force?token=02740660-1e24-11f0-a014-2b75f5bdcc42",
+              "anonymized": false,
+              "created_at": {
+                "date": "2025-04-20 17:14:05.000000",
+                "timezone_type": 3,
+                "timezone": "America/Sao_Paulo"
+              },
+              "updated_at": {
+                "date": "2025-04-20 17:14:05.000000",
+                "timezone_type": 3,
+                "timezone": "America/Sao_Paulo"
+              }
+            }
+          },
+          "items": {
+            "data": [
+              {
+                "id": 169881384,
+                "product_id": 33006429,
+                "sku_id": 221852914,
+                "bundle_id": null,
+                "bundle_name": null,
+                "freebie_id": null,
+                "price_cost": 0,
+                "price": 17,
+                "item_sku": "U9EBMP4L3",
+                "quantity": 1,
+                "shipment_cost": 0,
+                "gift": false,
+                "gift_value": 0,
+                "has_recomm": 0,
+                "customizations": [],
+                "is_digital": true,
+                "sku": {
+                  "data": {
+                    "id": 221852914,
+                    "product_id": 33006429,
+                    "seller_id": null,
+                    "sku": "U9EBMP4L3",
+                    "token": "HDJYH7SZJ6",
+                    "erp_id": null,
+                    "blocked_sale": false,
+                    "barcode": null,
+                    "title": "Missão Literária",
+                    "availability": 0,
+                    "availability_soldout": -1,
+                    "days_availability_formated": "Imediata",
+                    "price_cost": 0,
+                    "price_sale": 17,
+                    "price_discount": 0,
+                    "width": 1,
+                    "height": 1,
+                    "length": 1,
+                    "weight": 1,
+                    "quantity_managed": false,
+                    "variations": [],
+                    "combinations": "221852914",
+                    "order": 0,
+                    "total_in_stock": 0,
+                    "total_orders": null,
+                    "allow_sell_without_customization": false,
+                    "image_reference_sku_id": null,
+                    "purchase_url": "https://seguro.profdidatica.com.br/r/HDJYH7SZJ6",
+                    "created_at": {
+                      "date": "2024-06-11 16:45:25.000000",
+                      "timezone_type": 3,
+                      "timezone": "America/Sao_Paulo"
+                    },
+                    "updated_at": {
+                      "date": "2025-04-15 17:37:04.000000",
+                      "timezone_type": 3,
+                      "timezone": "America/Sao_Paulo"
+                    },
+                    "customizations": {
+                      "data": []
+                    }
+                  }
+                }
+              },
+              {
+                "id": 169881385,
+                "product_id": 32762140,
+                "sku_id": 220172796,
+                "bundle_id": null,
+                "bundle_name": null,
+                "freebie_id": null,
+                "price_cost": 0,
+                "price": 5,
+                "item_sku": "ZQWKPSM2H",
+                "quantity": 1,
+                "shipment_cost": 0,
+                "gift": false,
+                "gift_value": 0,
+                "has_recomm": 0,
+                "customizations": [],
+                "is_digital": true,
+                "sku": {
+                  "data": {
+                    "id": 220172796,
+                    "product_id": 32762140,
+                    "seller_id": null,
+                    "sku": "ZQWKPSM2H",
+                    "token": "CW7ENEUSDF",
+                    "erp_id": null,
+                    "blocked_sale": false,
+                    "barcode": null,
+                    "title": "Apostila Interpretação de Textos",
+                    "availability": 0,
+                    "availability_soldout": -1,
+                    "days_availability_formated": "Imediata",
+                    "price_cost": 0,
+                    "price_sale": 15,
+                    "price_discount": 12,
+                    "width": 1,
+                    "height": 1,
+                    "length": 1,
+                    "weight": 1,
+                    "quantity_managed": false,
+                    "variations": [],
+                    "combinations": "220172796",
+                    "order": 0,
+                    "total_in_stock": 0,
+                    "total_orders": null,
+                    "allow_sell_without_customization": false,
+                    "image_reference_sku_id": null,
+                    "purchase_url": "https://seguro.profdidatica.com.br/r/CW7ENEUSDF",
+                    "created_at": {
+                      "date": "2024-06-04 15:48:59.000000",
+                      "timezone_type": 3,
+                      "timezone": "America/Sao_Paulo"
+                    },
+                    "updated_at": {
+                      "date": "2024-11-12 16:37:56.000000",
+                      "timezone_type": 3,
+                      "timezone": "America/Sao_Paulo"
+                    },
+                    "customizations": {
+                      "data": []
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "marketplace_account": {
+            "data": []
+          },
+          "statuses": {
+            "data": [
+              {
+                "id": 3,
+                "alias": "waiting_payment",
+                "name": "Aguardando pagamento",
+                "description": "Aguardando confirmação de pagamento",
+                "details": null,
+                "created_at": {
+                  "date": "2025-04-20 17:14:36.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                },
+                "updated_at": {
+                  "date": "2025-04-20 17:14:36.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                }
+              },
+              {
+                "id": 4,
+                "alias": "paid",
+                "name": "Pagamento aprovado",
+                "description": "O pedido foi pago/capturado",
+                "details": "Criado por Mercadopago",
+                "created_at": {
+                  "date": "2025-04-20 17:15:34.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                },
+                "updated_at": {
+                  "date": "2025-04-20 17:15:34.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                }
+              }
+            ]
+          },
+          "shipping_address": {
+            "data": []
+          },
+          "pickup_address": {
+            "data": []
+          },
+          "promocode": {
+            "data": {
+              "id": 3820874,
+              "code": "PL40OFF",
+              "description": "40% de desconto para o Missão Literária",
+              "customer_id": null,
+              "active": true,
+              "discount_type": "v",
+              "newsletter": false,
+              "ignore_promotion_products": false,
+              "free_shipment": false,
+              "abandoned_cart": false,
+              "once_per_customer": false,
+              "for_the_price_of": false,
+              "cart_default": true,
+              "accumulate": false,
+              "min_value": "0.00",
+              "items_count": 0,
+              "value": "7.00",
+              "price_products": "0.00",
+              "product_quantity": 0,
+              "quantity": 1000,
+              "used": 828,
+              "expired": false,
+              "payments_ids": [],
+              "start_at": {
+                "date": "2025-03-21 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "America/Sao_Paulo"
+              },
+              "end_at": {
+                "date": "2029-07-05 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "America/Sao_Paulo"
+              },
+              "created_at": {
+                "date": "2025-03-21 10:47:33.000000",
+                "timezone_type": 3,
+                "timezone": "America/Sao_Paulo"
+              },
+              "updated_at": {
+                "date": "2025-04-20 17:14:36.000000",
+                "timezone_type": 3,
+                "timezone": "America/Sao_Paulo"
+              }
+            }
+          },
+          "transactions": {
+            "data": [
+              {
+                "id": 157621884,
+                "customer_id": 227321752,
+                "payment_id": 43,
+                "affiliation_id": 644613,
+                "marketplace_id": null,
+                "marketplace_account_id": null,
+                "authorized": true,
+                "captured": true,
+                "cancelled": false,
+                "gateway_transaction_id": "108994500436",
+                "gateway_order_id": null,
+                "gateway_authorization_code": null,
+                "gateway_billet_id": null,
+                "amount": 15,
+                "buyer_amount": 0,
+                "installments": 1,
+                "installment_value": 15,
+                "buyer_installment_value": 0,
+                "installment_formated": "1x de R$ 15,00",
+                "buyer_installment_formated": "1x de R$ 0,00",
+                "bank_name": null,
+                "bank_alias": null,
+                "status": "paid",
+                "error_message": null,
+                "error_code": null,
+                "truncated_card": null,
+                "holder_name": null,
+                "holder_document": null,
+                "billet_url": null,
+                "billet_barcode": null,
+                "billet_date": null,
+                "billet_our_number": null,
+                "billet_document_number": null,
+                "billet_whatsapp_link": "https://api.whatsapp.com/send?phone=5515981102713&text=",
+                "antifraud_sale_id": null,
+                "antifraud_status": null,
+                "antifraud_score": null,
+                "sent_to_antifraud": false,
+                "total_logs": 0,
+                "capture_date": null,
+                "authorized_at": {
+                  "date": "2025-04-20 17:14:36.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                },
+                "captured_at": {
+                  "date": "2025-04-20 17:15:34.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                },
+                "cancelled_at": null,
+                "can_be_captured": false,
+                "can_be_cancelled": true,
+                "created_at": {
+                  "date": "2025-04-20 17:14:36.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                },
+                "updated_at": {
+                  "date": "2025-04-20 17:15:34.000000",
+                  "timezone_type": 3,
+                  "timezone": "America/Sao_Paulo"
+                },
+                "payment": {
+                  "data": {
+                    "id": 43,
+                    "alias": "pix",
+                    "name": "Pix",
+                    "has_config": false,
+                    "active_config": false,
+                    "is_credit_card": false,
+                    "is_deposit": false,
+                    "is_billet": false,
+                    "is_pix": true,
+                    "is_pix_in_installments": false,
+                    "is_wallet": false,
+                    "icon_url": "https://icons.yampi.me/svg/card-pix.svg"
+                  }
+                },
+                "metadata": {
+                  "data": {
+                    "pix_expiration_date": "2025-04-20 17:44:35",
+                    "pix_qr_code": "00020126580014br.gov.bcb.pix01361fef0545-f93b-41f8-98a3-5aded4574006520400005303986540515.005802BR5911GOTH93306556007Braslia62250521mpqrinter1089945004366304CB41"
+                  }
+                }
+              }
+            ]
+          },
+          "search": {
+            "data": {
+              "payment_id": 43,
+              "antifraud_status": null,
+              "affiliation_id": 644613,
+              "products_ids": [
+                33006429,
+                32762140
+              ],
+              "gateway_transaction_id": "108994500436",
+              "created_at": "2025-04-20",
+              "updated_at": "2025-04-20",
+              "captured_at": "2025-04-20",
+              "cancelled_at": null,
+              "date_delivery": "2025-04-21",
+              "inventory_ids": [],
+              "payment_method": "pix",
+              "payment_retry": false,
+              "has_upsell": false,
+              "has_order_bump": true,
+              "has_freebie": false,
+              "upsell_ids": [],
+              "order_bump_ids": [
+                197856
+              ],
+              "freebie_ids": []
+            }
+          },
+          "services": {
+            "data": []
+          },
+          "spreadsheet": {
+            "data": [
+              {
+                "product": "Missão Literária",
+                "sku": "U9EBMP4L3",
+                "quantity": 1,
+                "total_cost": 0,
+                "total_item": 17,
+                "customization": "",
+                "payment_date": "20/04/2025 17:15",
+                "cancelled_date": "",
+                "customer": "Cristiane Caramante",
+                "customer_email": "crisribeirocarvalho76@gmail.com",
+                "customer_phone": "15981102713",
+                "customer_document": "16006376806",
+                "status": "Pagamento aprovado",
+                "payment": "Pix",
+                "credit_card": null,
+                "delivered": 0,
+                "shipping_address": "",
+                "shipping_street": "",
+                "shipping_number": "",
+                "shipping_neighborhood": "",
+                "shipping_complement": "",
+                "shipping_city": "",
+                "shipping_state": "",
+                "shipping_zip_code": "",
+                "gateway_transaction_id": "108994500436",
+                "billet_barcode": null
+              },
+              {
+                "product": "Apostila Interpretação de Textos",
+                "sku": "ZQWKPSM2H",
+                "quantity": 1,
+                "total_cost": 0,
+                "total_item": 5,
+                "customization": "",
+                "payment_date": "20/04/2025 17:15",
+                "cancelled_date": "",
+                "customer": "Cristiane Caramante",
+                "customer_email": "crisribeirocarvalho76@gmail.com",
+                "customer_phone": "15981102713",
+                "customer_document": "16006376806",
+                "status": "Pagamento aprovado",
+                "payment": "Pix",
+                "credit_card": null,
+                "delivered": 0,
+                "shipping_address": "",
+                "shipping_street": "",
+                "shipping_number": "",
+                "shipping_neighborhood": "",
+                "shipping_complement": "",
+                "shipping_city": "",
+                "shipping_state": "",
+                "shipping_zip_code": "",
+                "gateway_transaction_id": "108994500436",
+                "billet_barcode": null
+              }
+            ]
+          },
+          "metadata": {
+            "data": [
+              {
+                "key": "cart_id",
+                "value": "527565405"
+              },
+              {
+                "key": "cashback_value",
+                "value": "3"
+              },
+              {
+                "key": "source_platform",
+                "value": "purchase_link"
+              }
+            ]
+          },
+          "pix": {
+            "data": {
+              "pix_qr_code": "00020126580014br.gov.bcb.pix01361fef0545-f93b-41f8-98a3-5aded4574006520400005303986540515.005802BR5911GOTH93306556007Braslia62250521mpqrinter1089945004366304CB41",
+              "pix_expiration_date": "2025-04-20 17:44:35"
+            }
+          },
+          "whatsapp": {
+            "data": {
+              "abandoned_cart": null,
+              "order_shipped": null,
+              "billet": null,
+              "pix": {
+                "message": "Oi, *Cristiane*! Aqui é o Thiago da _Prof. Didática_. 😊%0a%0aVi que você iniciou uma compra em nossa loja mas ainda não finalizou. %0a%0aCaso precise de ajuda ou tenha encontrado algum problema é só me chamar aqui que te ajudo rapidinho! 🙏",
+                "link": "https://api.whatsapp.com/send?phone=5515981102713&text=Oi, *Cristiane*! Aqui é o Thiago da _Prof. Didática_. 😊%0a%0aVi que você iniciou uma compra em nossa loja mas ainda não finalizou. %0a%0aCaso precise de ajuda ou tenha encontrado algum problema é só me chamar aqui que te ajudo rapidinho! 🙏"
+              },
+              "payment_link": null
+            }
+          },
+          "whatsapp_app": {
+            "data": {
+              "abandoned_cart": null,
+              "order_shipped": null,
+              "billet": null,
+              "pix": {
+                "message": "Oi, *Cristiane*! Aqui é o Thiago da _Prof. Didática_. 😊%0a%0aVi que você iniciou uma compra em nossa loja mas ainda não finalizou. %0a%0aCaso precise de ajuda ou tenha encontrado algum problema é só me chamar aqui que te ajudo rapidinho! 🙏",
+                "link": "whatsapp://send?phone=5515981102713&text=Oi, *Cristiane*! Aqui é o Thiago da _Prof. Didática_. 😊%0a%0aVi que você iniciou uma compra em nossa loja mas ainda não finalizou. %0a%0aCaso precise de ajuda ou tenha encontrado algum problema é só me chamar aqui que te ajudo rapidinho! 🙏"
+              },
+              "payment_link": null
+            }
+          }
+        }
+      },
+      "webhookUrl": "https://webhook.elev8.com.br/webhook/8963a8df-f75e-4159-ba68-2bc737a2ad86",
+      "executionMode": "production"
+    }
+  ]

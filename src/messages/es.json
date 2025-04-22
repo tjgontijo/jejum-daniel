@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "Ayuno de Daniel",
+    "description": "21 días de ayuno y oración"
+  },
+  "login": {
+    "title": "Iniciar sesión en el Ayuno de Daniel",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "submit": "Entrar",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "register": "¿No tienes cuenta? Regístrate",
+    "social": "O continúa con"
+  },
+  "home": {
+    "welcome": "¿Listo para iniciar tu jornada de 21 días con Dios?",
+    "startButton": "Iniciar mi Ayuno",
+    "currentDay": "Día {day} de 21",
+    "completedDays": "Día {day} de 21 completado",
+    "fastingInProgress": "Tu Ayuno de Daniel está en progreso",
+    "accessCurrentDay": "Acceder al Día Actual",
+    "weekTheme": "Tema de la Semana"
+  },
+  "banner": {
+    "promo": "Conoce nuestro Devocional Avanzado – 30 días de crecimiento espiritual",
+    "cta": "Saber más"
+  },
+  "footer": {
+    "history": "Historial de ayunos",
+    "testimonies": "Mural de testimonios",
+    "community": "Feed de la Comunidad"
+  },
+  "days": {
+    "day1": "Gratitud y Entrega",
+    "day2": "Arrepentimiento y Purificación",
+    "day3": "Fe y Confianza",
+    "day4": "Familia y Relaciones",
+    "day5": "Salud y Curación",
+    "day6": "Sabiduría y Discernimiento",
+    "day7": "Propósito y Dirección",
+    "day8": "Liberación y Curación Interior",
+    "day9": "Frutos del Espíritu",
+    "day10": "Batalla Espiritual",
+    "day11": "Adoración y Alabanza",
+    "day12": "Comunión e Iglesia",
+    "day13": "Prosperidad y Provisión",
+    "day14": "Misión y Evangelismo",
+    "day15": "Perseverancia y Fidelidad",
+    "day16": "Humildad y Servicio",
+    "day17": "Paz y Descanso",
+    "day18": "Identidad en Cristo",
+    "day19": "Esperanza y Futuro",
+    "day20": "Unción y Poder",
+    "day21": "Celebración y Compromiso"
+  },
+  "status": {
+    "completed": "Completado",
+    "unlocked": "Disponible",
+    "locked": "Bloqueado",
+    "current": "Día Actual"
+  },
+  "features": {
+    "community": "Comunidad",
+    "recipes": "Recetas",
+    "devotional": "Devocional Avanzado",
+    "accessDenied": "Acceso restringido",
+    "upgrade": "Adquirir acceso"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "app": {
+    "title": "Jejum de Daniel",
+    "description": "21 dias de jejum e oração"
+  },
+  "login": {
+    "title": "Entrar no Jejum de Daniel",
+    "email": "E-mail",
+    "password": "Senha",
+    "submit": "Entrar",
+    "forgot": "Esqueceu sua senha?",
+    "register": "Ainda não tem conta? Registre-se",
+    "social": "Ou continue com"
+  },
+  "dashboard": {
+    "title": "Jejum de Daniel",
+    "currentDay": "Dia {day} de 21",
+    "dayTheme": "Fé e Confiança",
+    "accessButton": "Acessar Dia Atual",
+    "progress": "Seu Progresso",
+    "weekTitle": "Semana {week}: {theme}",
+    "resources": "Recursos",
+    "logoAlt": "Jejum de Daniel Logo",
+    "weeks": {
+      "week1": "Fundamentos",
+      "week2": "Crescimento",
+      "week3": "Conclusão"
+    },
+    "days": {
+      "day1": "Fé e Confiança",
+      "day2": "Oração e Intercessão",
+      "day3": "Palavra e Estudo",
+      "day4": "Adoração e Louvor",
+      "day5": "Jejum e Sacrifício",
+      "day6": "Família e Relacionamentos",
+      "day7": "Obediência e Compromisso",
+      "day8": "Libertação e Cura Interior",
+      "day9": "Frutos do Espírito",
+      "day10": "Batalha Espiritual",
+      "day11": "Adoração e Louvor",
+      "day12": "Comunhão e Igreja",
+      "day13": "Prosperidade e Provisão",
+      "day14": "Missão e Evangelismo",
+      "day15": "Perseverança e Fidelidade",
+      "day16": "Humildade e Serviço",
+      "day17": "Paz e Descanso",
+      "day18": "Identidade em Cristo",
+      "day19": "Esperança e Futuro",
+      "day20": "Unção e Poder",
+      "day21": "Celebração e Compromisso"
+    },
+    "nav": {
+      "home": "Início",
+      "calendar": "Calendário",
+      "community": "Comunidade",
+      "profile": "Perfil"
+    },
+    "features": {
+      "devotional": "Devocional Avançado",
+      "devotionalDesc": "30 dias de crescimento espiritual",
+      "community": "Comunidade",
+      "communityDesc": "Compartilhe sua jornada"
+    },
+    "status": {
+      "completed": "Concluído",
+      "current": "Atual",
+      "locked": "Bloqueado"
+    }
+  },
+  "home": {
+    "welcome": "Pronto para iniciar sua jornada de 21 dias com Deus?",
+    "startButton": "Iniciar meu Jejum",
+    "currentDay": "Dia {day} de 21",
+    "completedDays": "Dia {day} de 21 concluído",
+    "fastingInProgress": "Seu Jejum de Daniel está em andamento",
+    "accessCurrentDay": "Acessar Dia Atual",
+    "weekTheme": "Tema da Semana"
+  },
+  "banner": {
+    "promo": "Conheça nosso Devocional Avançado – 30 dias de crescimento espiritual",
+    "cta": "Saiba mais"
+  },
+  "footer": {
+    "home": "Início",
+    "days": "Dias",
+    "progress": "Progresso",
+    "profile": "Perfil"
+  },
+  "days": {
+    "day1": "Gratidão e Entrega",
+    "day2": "Arrependimento e Purificação",
+    "day3": "Fé e Confiança",
+    "day4": "Família e Relacionamentos",
+    "day5": "Saúde e Cura",
+    "day6": "Sabedoria e Discernimento",
+    "day7": "Propósito e Direção",
+    "day8": "Libertação e Cura Interior",
+    "day9": "Frutos do Espírito",
+    "day10": "Batalha Espiritual",
+    "day11": "Adoração e Louvor",
+    "day12": "Comunhão e Igreja",
+    "day13": "Prosperidade e Provisão",
+    "day14": "Missão e Evangelismo",
+    "day15": "Perseverança e Fidelidade",
+    "day16": "Humildade e Serviço",
+    "day17": "Paz e Descanso",
+    "day18": "Identidade em Cristo",
+    "day19": "Esperança e Futuro",
+    "day20": "Unção e Poder",
+    "day21": "Celebração e Compromisso"
+  },
+  "status": {
+    "completed": "Concluído",
+    "unlocked": "Disponível",
+    "locked": "Bloqueado",
+    "current": "Dia Atual"
+  },
+  "features": {
+    "community": "Comunidade",
+    "recipes": "Receitas",
+    "devotional": "Devocional Avançado",
+    "accessDenied": "Acesso restrito",
+    "upgrade": "Adquirir acesso"
+  }
+}

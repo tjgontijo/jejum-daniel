@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "Daniel's Fast",
+    "description": "21 days of fasting and prayer"
+  },
+  "login": {
+    "title": "Sign in to Daniel's Fast",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign in",
+    "forgot": "Forgot your password?",
+    "register": "Don't have an account? Register",
+    "social": "Or continue with"
+  },
+  "home": {
+    "welcome": "Ready to start your 21-day journey with God?",
+    "startButton": "Start my Fast",
+    "currentDay": "Day {day} of 21",
+    "completedDays": "Day {day} of 21 completed",
+    "fastingInProgress": "Your Daniel Fast is in progress",
+    "accessCurrentDay": "Access Current Day",
+    "weekTheme": "Week Theme"
+  },
+  "banner": {
+    "promo": "Discover our Advanced Devotional – 30 days of spiritual growth",
+    "cta": "Learn more"
+  },
+  "footer": {
+    "history": "Fasting history",
+    "testimonies": "Testimonials",
+    "community": "Community Feed"
+  },
+  "days": {
+    "day1": "Gratitude and Surrender",
+    "day2": "Repentance and Purification",
+    "day3": "Faith and Trust",
+    "day4": "Family and Relationships",
+    "day5": "Health and Healing",
+    "day6": "Wisdom and Discernment",
+    "day7": "Purpose and Direction",
+    "day8": "Freedom and Inner Healing",
+    "day9": "Fruits of the Spirit",
+    "day10": "Spiritual Warfare",
+    "day11": "Worship and Praise",
+    "day12": "Fellowship and Church",
+    "day13": "Prosperity and Provision",
+    "day14": "Mission and Evangelism",
+    "day15": "Perseverance and Faithfulness",
+    "day16": "Humility and Service",
+    "day17": "Peace and Rest",
+    "day18": "Identity in Christ",
+    "day19": "Hope and Future",
+    "day20": "Anointing and Power",
+    "day21": "Celebration and Commitment"
+  },
+  "status": {
+    "completed": "Completed",
+    "unlocked": "Available",
+    "locked": "Locked",
+    "current": "Current Day"
+  },
+  "features": {
+    "community": "Community",
+    "recipes": "Recipes",
+    "devotional": "Advanced Devotional",
+    "accessDenied": "Access Restricted",
+    "upgrade": "Get Access"
+  }
+}
